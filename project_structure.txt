@@ -1,0 +1,719 @@
+﻿Microsoft Windows [Version 10.0.26300.9974]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Windows\System32>sqlplus /nolog
+
+SQL*Plus: Release 19.0.0.0.0 - Production on Fri Nov 20 10:27:10 2026
+Version 19.3.0.0.0
+
+Copyright (c) 1982, 2019, Oracle.  All rights reserved.
+
+SQL> connect sys as sysdba
+Enter password:
+Connected.
+SQL>
+SQL> SELECT NAME, OPEN_MODE, CDB FROM V$DATABASE;
+
+NAME      OPEN_MODE            CDB
+--------- -------------------- ---
+DBC1      READ WRITE           NO
+
+SQL> ARCHIVE LOG LIST;
+Database log mode              No Archive Mode
+Automatic archival             Disabled
+Archive destination            C:\dbhome\RDBMS
+Oldest online log sequence     12
+Current log sequence           14
+SQL>
+SQL>
+SQL>
+SQL> SHOW PARAMETER INSTANCE_NAME;
+
+NAME                                 TYPE        VALUE
+------------------------------------ ----------- ------------------------------
+instance_name                        string      dbc1
+SQL>
+SQL>
+SQL> SELECT FILE_NAME FROM DBA_DATA_FILES;
+
+FILE_NAME
+--------------------------------------------------------------------------------
+C:\APP\ORACLEO\ORADATA\DBC1\SYSTEM01.DBF
+C:\APP\ORACLEO\ORADATA\DBC1\SYSAUX01.DBF
+C:\APP\ORACLEO\ORADATA\DBC1\USERS01.DBF
+C:\APP\ORACLEO\ORADATA\DBC1\UNDOTBS01.DBF
+
+SQL> SELECT NAME FROM V$CONTROLFILE;
+
+NAME
+--------------------------------------------------------------------------------
+C:\APP\ORACLEO\ORADATA\DBC1\CONTROL01.CTL
+C:\APP\ORACLEO\ORADATA\DBC1\CONTROL02.CTL
+
+SQL> SELECT MEMBER FROM V$LOGFILE;
+
+MEMBER
+--------------------------------------------------------------------------------
+C:\APP\ORACLEO\ORADATA\DBC1\REDO03.LOG
+C:\APP\ORACLEO\ORADATA\DBC1\REDO02.LOG
+C:\APP\ORACLEO\ORADATA\DBC1\REDO01.LOG
+
+SQL> SELECT TABLESPACE_NAME, STATUS FROM DBA_TABLESPACES;
+
+TABLESPACE_NAME                STATUS
+------------------------------ ---------
+SYSTEM                         ONLINE
+SYSAUX                         ONLINE
+UNDOTBS1                       ONLINE
+TEMP                           ONLINE
+USERS                          ONLINE
+
+SQL>
+SQL>
+SQL> SELECT STATUS FROM V$INSTANCE;
+
+STATUS
+------------
+OPEN
+
+SQL> SHOW PARAMETER SPFILE;
+
+NAME                                 TYPE        VALUE
+------------------------------------ ----------- ------------------------------
+spfile                               string      C:\DBHOME\DATABASE\SPFILEDBC1.
+                                                 ORA
+SQL> SHOW PARAMETER LOG_ARCHIVE_DEST;
+
+NAME                                 TYPE        VALUE
+------------------------------------ ----------- ------------------------------
+log_archive_dest                     string
+log_archive_dest_1                   string
+log_archive_dest_10                  string
+log_archive_dest_11                  string
+log_archive_dest_12                  string
+log_archive_dest_13                  string
+log_archive_dest_14                  string
+log_archive_dest_15                  string
+log_archive_dest_16                  string
+log_archive_dest_17                  string
+log_archive_dest_18                  string
+
+NAME                                 TYPE        VALUE
+------------------------------------ ----------- ------------------------------
+log_archive_dest_19                  string
+log_archive_dest_2                   string
+log_archive_dest_20                  string
+log_archive_dest_21                  string
+log_archive_dest_22                  string
+log_archive_dest_23                  string
+log_archive_dest_24                  string
+log_archive_dest_25                  string
+log_archive_dest_26                  string
+log_archive_dest_27                  string
+log_archive_dest_28                  string
+
+NAME                                 TYPE        VALUE
+------------------------------------ ----------- ------------------------------
+log_archive_dest_29                  string
+log_archive_dest_3                   string
+log_archive_dest_30                  string
+log_archive_dest_31                  string
+log_archive_dest_4                   string
+log_archive_dest_5                   string
+log_archive_dest_6                   string
+log_archive_dest_7                   string
+log_archive_dest_8                   string
+log_archive_dest_9                   string
+log_archive_dest_state_1             string      enable
+
+NAME                                 TYPE        VALUE
+------------------------------------ ----------- ------------------------------
+log_archive_dest_state_10            string      enable
+log_archive_dest_state_11            string      enable
+log_archive_dest_state_12            string      enable
+log_archive_dest_state_13            string      enable
+log_archive_dest_state_14            string      enable
+log_archive_dest_state_15            string      enable
+log_archive_dest_state_16            string      enable
+log_archive_dest_state_17            string      enable
+log_archive_dest_state_18            string      enable
+log_archive_dest_state_19            string      enable
+log_archive_dest_state_2             string      enable
+
+NAME                                 TYPE        VALUE
+------------------------------------ ----------- ------------------------------
+log_archive_dest_state_20            string      enable
+log_archive_dest_state_21            string      enable
+log_archive_dest_state_22            string      enable
+log_archive_dest_state_23            string      enable
+log_archive_dest_state_24            string      enable
+log_archive_dest_state_25            string      enable
+log_archive_dest_state_26            string      enable
+log_archive_dest_state_27            string      enable
+log_archive_dest_state_28            string      enable
+log_archive_dest_state_29            string      enable
+log_archive_dest_state_3             string      enable
+
+NAME                                 TYPE        VALUE
+------------------------------------ ----------- ------------------------------
+log_archive_dest_state_30            string      enable
+log_archive_dest_state_31            string      enable
+log_archive_dest_state_4             string      enable
+log_archive_dest_state_5             string      enable
+log_archive_dest_state_6             string      enable
+log_archive_dest_state_7             string      enable
+log_archive_dest_state_8             string      enable
+log_archive_dest_state_9             string      enable
+SQL>
+SQL>
+SQL>
+SQL> SHOW PARAMETER DB_RECOVERY_FILE_DEST;
+
+NAME                                 TYPE        VALUE
+------------------------------------ ----------- ------------------------------
+db_recovery_file_dest                string
+db_recovery_file_dest_size           big integer 0
+SQL>
+SQL> SELECT PARAMETER, VALUE FROM NLS_DATABASE_PARAMETERS WHERE PARAMETER = 'NLS_CHARACTERSET';
+
+PARAMETER
+--------------------------------------------------------------------------------
+VALUE
+--------------------------------------------------------------------------------
+NLS_CHARACTERSET
+AL32UTF8
+
+
+SQL>    SELECT LOG_MODE FROM V$DATABASE;
+
+LOG_MODE
+------------
+NOARCHIVELOG
+
+SQL> EXIT
+Disconnected from Oracle Database 19c Enterprise Edition Release 19.0.0.0.0 - Production
+Version 19.3.0.0.0
+
+C:\Windows\System32>
+C:\Windows\System32>
+C:\Windows\System32>mkdir C:\ORACLE_BACKUP\ARCHIVE
+
+C:\Windows\System32>dir C:\ORACLE_BACKUP\ARCHIVE
+ Volume in drive C has no label.
+ Volume Serial Number is E0FF-9464
+
+ Directory of C:\ORACLE_BACKUP\ARCHIVE
+
+11/20/2026  10:44 AM    <DIR>          .
+11/20/2026  10:44 AM    <DIR>          ..
+               0 File(s)              0 bytes
+               2 Dir(s)  478,329,970,688 bytes free
+
+C:\Windows\System32>mkdir C:\ORACLE_BACKUP\DATAFILES
+
+C:\Windows\System32>
+C:\Windows\System32>
+C:\Windows\System32>dir C:\ORACLE_BACKUP
+ Volume in drive C has no label.
+ Volume Serial Number is E0FF-9464
+
+ Directory of C:\ORACLE_BACKUP
+
+11/20/2026  10:45 AM    <DIR>          .
+11/20/2026  10:44 AM    <DIR>          ARCHIVE
+11/20/2026  10:45 AM    <DIR>          DATAFILES
+               0 File(s)              0 bytes
+               3 Dir(s)  478,329,827,328 bytes free
+
+C:\Windows\System32>
+
+C:\Windows\System32>mkdir C:\ORACLE_BACKUP\CONTROLFILES
+
+C:\Windows\System32>
+C:\Windows\System32>dir C:\ORACLE_BACKUP
+ Volume in drive C has no label.
+ Volume Serial Number is E0FF-9464
+
+ Directory of C:\ORACLE_BACKUP
+
+11/20/2026  10:46 AM    <DIR>          .
+11/20/2026  10:44 AM    <DIR>          ARCHIVE
+11/20/2026  10:46 AM    <DIR>          CONTROLFILES
+11/20/2026  10:45 AM    <DIR>          DATAFILES
+               0 File(s)              0 bytes
+               4 Dir(s)  478,328,279,040 bytes free
+
+C:\Windows\System32>mkdir C:\ORACLE_BACKUP\CONFIG
+
+C:\Windows\System32>
+C:\Windows\System32>dir C:\ORACLE_BACKUP
+ Volume in drive C has no label.
+ Volume Serial Number is E0FF-9464
+
+ Directory of C:\ORACLE_BACKUP
+
+11/20/2026  10:47 AM    <DIR>          .
+11/20/2026  10:44 AM    <DIR>          ARCHIVE
+11/20/2026  10:47 AM    <DIR>          CONFIG
+11/20/2026  10:46 AM    <DIR>          CONTROLFILES
+11/20/2026  10:45 AM    <DIR>          DATAFILES
+               0 File(s)              0 bytes
+               5 Dir(s)  478,328,516,608 bytes free
+
+C:\Windows\System32>
+C:\Windows\System32>
+C:\Windows\System32>
+C:\Windows\System32>sqlplus / as sysdba
+
+SQL*Plus: Release 19.0.0.0.0 - Production on Fri Nov 20 10:49:43 2026
+Version 19.3.0.0.0
+
+Copyright (c) 1982, 2019, Oracle.  All rights reserved.
+
+
+Connected to:
+Oracle Database 19c Enterprise Edition Release 19.0.0.0.0 - Production
+Version 19.3.0.0.0
+
+SQL> SHOW PARAMETER SPFILE;
+
+NAME                                 TYPE        VALUE
+------------------------------------ ----------- ------------------------------
+spfile                               string      C:\DBHOME\DATABASE\SPFILEDBC1.
+                                                 ORA
+SQL> SELECT NAME, OPEN_MODE, LOG_MODE FROM V$DATABASE;
+
+NAME      OPEN_MODE            LOG_MODE
+--------- -------------------- ------------
+DBC1      READ WRITE           NOARCHIVELOG
+
+SQL> SELECT INSTANCE_NAME, STATUS FROM V$INSTANCE;
+
+INSTANCE_NAME    STATUS
+---------------- ------------
+dbc1             OPEN
+
+SQL> SHOW PARAMETER CONTROL_FILES;
+
+NAME                                 TYPE        VALUE
+------------------------------------ ----------- ------------------------------
+control_files                        string      C:\APP\ORACLEO\ORADATA\DBC1\CO
+                                                 NTROL01.CTL, C:\APP\ORACLEO\OR
+                                                 ADATA\DBC1\CONTROL02.CTL
+SQL> SHOW PARAMETER DB_RECOVERY_FILE_DEST;
+
+NAME                                 TYPE        VALUE
+------------------------------------ ----------- ------------------------------
+db_recovery_file_dest                string
+db_recovery_file_dest_size           big integer 0
+SQL> SHOW PARAMETER DB_RECOVERY_FILE_DEST_SIZE;
+
+NAME                                 TYPE        VALUE
+------------------------------------ ----------- ------------------------------
+db_recovery_file_dest_size           big integer 0
+SQL> mkdir C:\ORACLE_BACKUP\FRA
+SP2-0734: unknown command beginning "mkdir C:\O..." - rest of line ignored.
+SQL>
+SQL> exit
+Disconnected from Oracle Database 19c Enterprise Edition Release 19.0.0.0.0 - Production
+Version 19.3.0.0.0
+
+C:\Windows\System32>mkdir C:\ORACLE_BACKUP\FRA
+
+C:\Windows\System32>sqlplus / as sysdba
+
+SQL*Plus: Release 19.0.0.0.0 - Production on Fri Nov 20 10:53:56 2026
+Version 19.3.0.0.0
+
+Copyright (c) 1982, 2019, Oracle.  All rights reserved.
+
+
+Connected to:
+Oracle Database 19c Enterprise Edition Release 19.0.0.0.0 - Production
+Version 19.3.0.0.0
+
+SQL> ALTER SYSTEM SET DB_RECOVERY_FILE_DEST='C:\ORACLE_BACKUP\FRA' SCOPE=BOTH;
+ALTER SYSTEM SET DB_RECOVERY_FILE_DEST='C:\ORACLE_BACKUP\FRA' SCOPE=BOTH
+*
+ERROR at line 1:
+ORA-02097: parameter cannot be modified because specified value is invalid
+ORA-19802: cannot use DB_RECOVERY_FILE_DEST without DB_RECOVERY_FILE_DEST_SIZE
+
+
+SQL> ALTER SYSTEM SET DB_RECOVERY_FILE_DEST_SIZE=10G SCOPE=BOTH;
+
+System altered.
+
+SQL> ALTER SYSTEM SET DB_RECOVERY_FILE_DEST='C:\ORACLE_BACKUP\FRA' SCOPE=BOTH;
+
+System altered.
+
+SQL> SHOW PARAMETER DB_RECOVERY_FILE_DEST;
+
+NAME                                 TYPE        VALUE
+------------------------------------ ----------- ------------------------------
+db_recovery_file_dest                string      C:\ORACLE_BACKUP\FRA
+db_recovery_file_dest_size           big integer 10G
+SQL> SHUTDOWN IMMEDIATE;
+Database closed.
+Database dismounted.
+ORACLE instance shut down.
+SQL>
+SQL> STARTUP MOUNT;
+ORACLE instance started.
+
+Total System Global Area 2499804960 bytes
+Fixed Size                  9031456 bytes
+Variable Size             570425344 bytes
+Database Buffers         1912602624 bytes
+Redo Buffers                7745536 bytes
+Database mounted.
+SQL> ALTER DATABASE ARCHIVELOG;
+
+Database altered.
+
+SQL>
+SQL> ALTER DATABASE OPEN;
+
+Database altered.
+
+SQL> ARCHIVE LOG LIST;
+
+SQL> SELECT LOG_MODE FROM V$DATABASE;
+
+LOG_MODE
+------------
+ARCHIVELOG
+
+SQL>
+SQL> ARCHIVE LOG LIST;
+Database log mode              Archive Mode
+Automatic archival             Enabled
+Archive destination            USE_DB_RECOVERY_FILE_DEST
+Oldest online log sequence     12
+Next log sequence to archive   14
+Current log sequence           14
+SQL> SELECT TABLESPACE_NAME, STATUS FROM DBA_TABLESPACES;
+
+TABLESPACE_NAME                STATUS
+------------------------------ ---------
+SYSTEM                         ONLINE
+SYSAUX                         ONLINE
+UNDOTBS1                       ONLINE
+TEMP                           ONLINE
+USERS                          ONLINE
+
+SQL> SELECT FILE_NAME, TABLESPACE_NAME FROM DBA_DATA_FILES;
+
+FILE_NAME
+--------------------------------------------------------------------------------
+TABLESPACE_NAME
+------------------------------
+C:\APP\ORACLEO\ORADATA\DBC1\SYSTEM01.DBF
+SYSTEM
+
+C:\APP\ORACLEO\ORADATA\DBC1\SYSAUX01.DBF
+SYSAUX
+
+C:\APP\ORACLEO\ORADATA\DBC1\USERS01.DBF
+USERS
+
+
+FILE_NAME
+--------------------------------------------------------------------------------
+TABLESPACE_NAME
+------------------------------
+C:\APP\ORACLEO\ORADATA\DBC1\UNDOTBS01.DBF
+UNDOTBS1
+
+
+SQL> SELECT GROUP#, MEMBER FROM V$LOGFILE;
+
+    GROUP#
+----------
+MEMBER
+--------------------------------------------------------------------------------
+         3
+C:\APP\ORACLEO\ORADATA\DBC1\REDO03.LOG
+
+         2
+C:\APP\ORACLEO\ORADATA\DBC1\REDO02.LOG
+
+         1
+C:\APP\ORACLEO\ORADATA\DBC1\REDO01.LOG
+
+
+SQL> SELECT NAME FROM V$CONTROLFILE;
+
+NAME
+--------------------------------------------------------------------------------
+C:\APP\ORACLEO\ORADATA\DBC1\CONTROL01.CTL
+C:\APP\ORACLEO\ORADATA\DBC1\CONTROL02.CTL
+
+SQL> SHOW PARAMETER SPFILE;
+
+NAME                                 TYPE        VALUE
+------------------------------------ ----------- ------------------------------
+spfile                               string      C:\DBHOME\DATABASE\SPFILEDBC1.
+                                                 ORA
+SQL> EXIT;
+Disconnected from Oracle Database 19c Enterprise Edition Release 19.0.0.0.0 - Production
+Version 19.3.0.0.0
+
+C:\Windows\System32>mkdir C:\ORACLE_BACKUP\HOT_BACKUP
+
+C:\Windows\System32>sqlplus / as sysdba
+
+SQL*Plus: Release 19.0.0.0.0 - Production on Fri Nov 20 11:07:33 2026
+Version 19.3.0.0.0
+
+Copyright (c) 1982, 2019, Oracle.  All rights reserved.
+
+
+Connected to:
+Oracle Database 19c Enterprise Edition Release 19.0.0.0.0 - Production
+Version 19.3.0.0.0
+
+SQL>
+SQL> SELECT NAME, OPEN_MODE, LOG_MODE FROM V$DATABASE;
+
+NAME      OPEN_MODE            LOG_MODE
+--------- -------------------- ------------
+DBC1      READ WRITE           ARCHIVELOG
+
+SQL> ALTER TABLESPACE SYSTEM BEGIN BACKUP;
+
+Tablespace altered.
+
+SQL> ALTER TABLESPACE SYSTEM END BACKUP;
+
+Tablespace altered.
+
+SQL> ALTER TABLESPACE SYSAUX BEGIN BACKUP;
+
+Tablespace altered.
+
+SQL> ALTER TABLESPACE SYSAUX END BACKUP;
+
+Tablespace altered.
+
+SQL> ALTER TABLESPACE USERS BEGIN BACKUP;
+
+Tablespace altered.
+
+SQL> ALTER TABLESPACE USERS END BACKUP;
+
+Tablespace altered.
+
+SQL>
+SQL> ALTER TABLESPACE UNDOTBS1 BEGIN BACKUP;
+
+Tablespace altered.
+
+SQL> ALTER TABLESPACE UNDOTBS1 END BACKUP;
+
+Tablespace altered.
+
+SQL>
+SQL>
+SQL> SELECT FILE#, STATUS FROM V$BACKUP;
+
+     FILE# STATUS
+---------- ------------------
+         1 NOT ACTIVE
+         3 NOT ACTIVE
+         4 NOT ACTIVE
+         7 NOT ACTIVE
+
+SQL> ALTER SYSTEM ARCHIVE LOG CURRENT;
+
+System altered.
+
+SQL>
+SQL> ALTER SYSTEM ARCHIVE LOG CURRENT;
+
+System altered.
+
+SQL> SELECT SEQUENCE#, NAME, STATUS FROM V$ARCHIVED_LOG WHERE NAME IS NOT NULL ORDER BY SEQUENCE#;
+
+ SEQUENCE#
+----------
+NAME
+--------------------------------------------------------------------------------
+S
+-
+        14
+C:\ORACLE_BACKUP\FRA\DBC1\ARCHIVELOG\2026_11_20\O1_MF_1_14_OJ042TP3_.ARC
+A
+
+        15
+C:\ORACLE_BACKUP\FRA\DBC1\ARCHIVELOG\2026_11_20\O1_MF_1_15_OJ04DZLB_.ARC
+A
+
+ SEQUENCE#
+----------
+NAME
+--------------------------------------------------------------------------------
+S
+-
+
+
+SQL> ALTER DATABASE BACKUP CONTROLFILE TO 'C:\ORACLE_BACKUP\CONFIG\DBC1_CONTROL.BKP';
+
+Database altered.
+
+SQL> CREATE PFILE='C:\ORACLE_BACKUP\CONFIG\INITDBC1.ORA' FROM SPFILE;
+
+File created.
+
+SQL> EXIT;
+Disconnected from Oracle Database 19c Enterprise Edition Release 19.0.0.0.0 - Production
+Version 19.3.0.0.0
+
+C:\Windows\System32>dir C:\ORACLE_BACKUP\HOT_BACKUP
+ Volume in drive C has no label.
+ Volume Serial Number is E0FF-9464
+
+ Directory of C:\ORACLE_BACKUP\HOT_BACKUP
+
+11/20/2026  11:16 AM    <DIR>          .
+11/20/2026  11:07 AM    <DIR>          ..
+11/20/2026  11:12 AM       629,153,792 SYSAUX01.DBF
+11/20/2026  11:10 AM       933,240,832 SYSTEM01.DBF
+11/20/2026  11:16 AM        68,165,632 UNDOTBS01.DBF
+11/20/2026  11:15 AM         5,251,072 USERS01.DBF
+               4 File(s)  1,635,811,328 bytes
+               2 Dir(s)  476,434,944,000 bytes free
+
+C:\Windows\System32>dir C:\ORACLE_BACKUP\ARCHIVE
+ Volume in drive C has no label.
+ Volume Serial Number is E0FF-9464
+
+ Directory of C:\ORACLE_BACKUP\ARCHIVE
+
+11/20/2026  11:26 AM    <DIR>          .
+11/20/2026  11:07 AM    <DIR>          ..
+11/20/2026  11:18 AM        10,132,992 O1_MF_1_14_OJ042TP3_.ARC
+11/20/2026  11:23 AM            28,672 O1_MF_1_15_OJ04DZLB_.ARC
+               2 File(s)     10,161,664 bytes
+               2 Dir(s)  476,434,657,280 bytes free
+
+C:\Windows\System32>dir C:\ORACLE_BACKUP\CONFIG
+ Volume in drive C has no label.
+ Volume Serial Number is E0FF-9464
+
+ Directory of C:\ORACLE_BACKUP\CONFIG
+
+11/20/2026  11:27 AM    <DIR>          .
+11/20/2026  11:07 AM    <DIR>          ..
+11/20/2026  11:26 AM        10,600,448 DBC1_CONTROL.BKP
+11/20/2026  11:27 AM             1,162 INITDBC1.ORA
+               2 File(s)     10,601,610 bytes
+               2 Dir(s)  476,435,681,280 bytes free
+
+C:\Windows\System32>sqlplus / as sysdba
+
+SQL*Plus: Release 19.0.0.0.0 - Production on Fri Nov 20 11:29:06 2026
+Version 19.3.0.0.0
+
+Copyright (c) 1982, 2019, Oracle.  All rights reserved.
+
+
+Connected to:
+Oracle Database 19c Enterprise Edition Release 19.0.0.0.0 - Production
+Version 19.3.0.0.0
+
+SQL> SELECT SEQUENCE#, FIRST_CHANGE#, NEXT_CHANGE#, STATUS FROM V$ARCHIVED_LOG WHERE NAME IS NOT NULL ORDER BY SEQUENCE#;
+
+ SEQUENCE# FIRST_CHANGE# NEXT_CHANGE# S
+---------- ------------- ------------ -
+        14       3460703      3467184 A
+        15       3467184      3467337 A
+
+SQL> SELECT FILE#, CHECKPOINT_CHANGE#, FUZZY, STATUS FROM V$DATAFILE_HEADER ORDER BY FILE#;
+
+     FILE# CHECKPOINT_CHANGE# FUZ STATUS
+---------- ------------------ --- -------
+         1            3467337 YES ONLINE
+         3            3467337 YES ONLINE
+         4            3467337 YES ONLINE
+         7            3467337 YES ONLINE
+
+SQL> SELECT CURRENT_SCN FROM V$DATABASE;
+
+CURRENT_SCN
+-----------
+    3467616
+
+SQL> ALTER SYSTEM ARCHIVE LOG CURRENT;
+
+System altered.
+
+SQL> SELECT SEQUENCE#, FIRST_CHANGE#, NEXT_CHANGE#, NAME, STATUS FROM V$ARCHIVED_LOG WHERE NAME IS NOT NULL ORDER BY SEQUENCE#;
+
+ SEQUENCE# FIRST_CHANGE# NEXT_CHANGE#
+---------- ------------- ------------
+NAME
+--------------------------------------------------------------------------------
+S
+-
+        14       3460703      3467184
+C:\ORACLE_BACKUP\FRA\DBC1\ARCHIVELOG\2026_11_20\O1_MF_1_14_OJ042TP3_.ARC
+A
+
+        15       3467184      3467337
+C:\ORACLE_BACKUP\FRA\DBC1\ARCHIVELOG\2026_11_20\O1_MF_1_15_OJ04DZLB_.ARC
+A
+
+ SEQUENCE# FIRST_CHANGE# NEXT_CHANGE#
+---------- ------------- ------------
+NAME
+--------------------------------------------------------------------------------
+S
+-
+
+        16       3467337      3467631
+C:\ORACLE_BACKUP\FRA\DBC1\ARCHIVELOG\2026_11_20\O1_MF_1_16_OJ04X7X0_.ARC
+A
+
+
+SQL> EXIT;
+Disconnected from Oracle Database 19c Enterprise Edition Release 19.0.0.0.0 - Production
+Version 19.3.0.0.0
+
+C:\Windows\System32>
+C:\Windows\System32>
+C:\Windows\System32>
+C:\Windows\System32>
+C:\Windows\System32>sqlplus / as sysdba
+
+SQL*Plus: Release 19.0.0.0.0 - Production on Fri Nov 20 11:34:33 2026
+Version 19.3.0.0.0
+
+Copyright (c) 1982, 2019, Oracle.  All rights reserved.
+
+
+Connected to:
+Oracle Database 19c Enterprise Edition Release 19.0.0.0.0 - Production
+Version 19.3.0.0.0
+
+SQL>
+SQL> SELECT NAME, OPEN_MODE, LOG_MODE FROM V$DATABASE;
+
+NAME      OPEN_MODE            LOG_MODE
+--------- -------------------- ------------
+DBC1      READ WRITE           ARCHIVELOG
+
+SQL> SELECT FILE#, STATUS FROM V$BACKUP ORDER BY FILE#;
+
+SQL> SELECT FILE#, STATUS FROM V$BACKUP ORDER BY FILE#;
+
+     FILE# STATUS
+---------- ------------------
+         1 NOT ACTIVE
+         3 NOT ACTIVE
+         4 NOT ACTIVE
+         7 NOT ACTIVE
+
+SQL>
+
