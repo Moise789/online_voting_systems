@@ -1,0 +1,68 @@
+From: =?UTF-8?B?SW50ZWdyYXRpb24gVGVzdA==?= <test-sender@example.test>
+To: <new-voter@example.test>
+Subject: =?UTF-8?B?WW91ciB2ZXJpZmljYXRpb24gY29kZQ==?=
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+Your six-digit verification code is 304799. It expires in 10 minutes. If you did not request this, you can ignore this message.
+
+
+---MESSAGE---
+From: =?UTF-8?B?SW50ZWdyYXRpb24gVGVzdA==?= <test-sender@example.test>
+To: <new-voter@example.test>
+Subject: =?UTF-8?B?UmVnaXN0cmF0aW9uIHN1Y2Nlc3NmdWw=?=
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+Hello Integration Applicant,
+
+Your account is active and ready to use.
+
+
+---MESSAGE---
+From: =?UTF-8?B?SW50ZWdyYXRpb24gVGVzdA==?= <test-sender@example.test>
+To: <expired-voter@example.test>
+Subject: =?UTF-8?B?WW91ciB2ZXJpZmljYXRpb24gY29kZQ==?=
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+Your six-digit verification code is 024253. It expires in 10 minutes. If you did not request this, you can ignore this message.
+
+
+---MESSAGE---
+From: =?UTF-8?B?SW50ZWdyYXRpb24gVGVzdA==?= <test-sender@example.test>
+To: <attempts-voter@example.test>
+Subject: =?UTF-8?B?WW91ciB2ZXJpZmljYXRpb24gY29kZQ==?=
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+Your six-digit verification code is 210624. It expires in 10 minutes. If you did not request this, you can ignore this message.
+
+
+---MESSAGE---
+From: =?UTF-8?B?SW50ZWdyYXRpb24gVGVzdA==?= <test-sender@example.test>
+To: <resend-voter@example.test>
+Subject: =?UTF-8?B?WW91ciB2ZXJpZmljYXRpb24gY29kZQ==?=
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+Your six-digit verification code is 751404. It expires in 10 minutes. If you did not request this, you can ignore this message.
+
+
+---MESSAGE---
+From: =?UTF-8?B?SW50ZWdyYXRpb24gVGVzdA==?= <test-sender@example.test>
+To: <unverified@example.test>
+Subject: =?UTF-8?B?WW91ciB2ZXJpZmljYXRpb24gY29kZQ==?=
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+Your six-digit verification code is 448711. It expires in 10 minutes. If you did not request this, you can ignore this message.
+
+
+---MESSAGE---

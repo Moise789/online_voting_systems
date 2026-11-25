@@ -1,0 +1,211 @@
+[Fri Nov  6 12:07:33 2026] PHP 8.2.12 Development Server (http://0.0.0.0:26286) started
+[Fri Nov  6 12:07:33 2026] 127.0.0.1:56122 Accepted
+[Fri Nov  6 12:07:33 2026] 127.0.0.1:56122 [200]: GET /index.php?page=login
+[Fri Nov  6 12:07:33 2026] 127.0.0.1:56122 Closing
+[Fri Nov  6 12:07:33 2026] 127.0.0.1:56124 Accepted
+[Fri Nov  6 12:07:33 2026] 127.0.0.1:56124 [200]: GET /index.php?page=register
+[Fri Nov  6 12:07:33 2026] 127.0.0.1:56124 Closing
+[Fri Nov  6 12:07:33 2026] 127.0.0.1:56125 Accepted
+[Fri Nov  6 12:07:34 2026] 127.0.0.1:56125 [303]: POST /index.php?page=register
+[Fri Nov  6 12:07:34 2026] 127.0.0.1:56125 Closing
+[Fri Nov  6 12:07:34 2026] 127.0.0.1:56128 Accepted
+[Fri Nov  6 12:07:34 2026] 127.0.0.1:56128 [200]: GET /index.php?page=verify-otp
+[Fri Nov  6 12:07:34 2026] 127.0.0.1:56128 Closing
+[Fri Nov  6 12:07:34 2026] 127.0.0.1:56130 Accepted
+[Fri Nov  6 12:07:34 2026] 127.0.0.1:56130 [200]: GET /index.php?page=verify-otp
+[Fri Nov  6 12:07:34 2026] 127.0.0.1:56130 Closing
+[Fri Nov  6 12:07:34 2026] 127.0.0.1:56132 Accepted
+[Fri Nov  6 12:07:34 2026] 127.0.0.1:56132 [303]: POST /index.php?page=verify-otp
+[Fri Nov  6 12:07:34 2026] 127.0.0.1:56132 Closing
+[Fri Nov  6 12:07:34 2026] 127.0.0.1:56134 Accepted
+[Fri Nov  6 12:07:34 2026] 127.0.0.1:56134 [200]: GET /index.php?page=verify-otp
+[Fri Nov  6 12:07:34 2026] 127.0.0.1:56134 Closing
+[Fri Nov  6 12:07:34 2026] 127.0.0.1:56136 Accepted
+[Fri Nov  6 12:07:34 2026] 127.0.0.1:56136 [303]: POST /index.php?page=verify-otp
+[Fri Nov  6 12:07:34 2026] 127.0.0.1:56136 Closing
+[Fri Nov  6 12:07:34 2026] 127.0.0.1:56139 Accepted
+[Fri Nov  6 12:07:34 2026] 127.0.0.1:56139 [200]: GET /index.php?page=login
+[Fri Nov  6 12:07:34 2026] 127.0.0.1:56139 Closing
+[Fri Nov  6 12:07:34 2026] 127.0.0.1:56141 Accepted
+[Fri Nov  6 12:07:34 2026] 127.0.0.1:56141 [200]: GET /index.php?page=register
+[Fri Nov  6 12:07:34 2026] 127.0.0.1:56141 Closing
+[Fri Nov  6 12:07:34 2026] 127.0.0.1:56142 Accepted
+[Fri Nov  6 12:07:34 2026] 127.0.0.1:56142 [303]: POST /index.php?page=register
+[Fri Nov  6 12:07:34 2026] 127.0.0.1:56142 Closing
+[Fri Nov  6 12:07:34 2026] 127.0.0.1:56144 Accepted
+[Fri Nov  6 12:07:34 2026] 127.0.0.1:56144 [200]: GET /index.php?page=register
+[Fri Nov  6 12:07:34 2026] 127.0.0.1:56144 Closing
+[Fri Nov  6 12:07:34 2026] 127.0.0.1:56145 Accepted
+[Fri Nov  6 12:07:34 2026] 127.0.0.1:56145 [200]: GET /index.php?page=register
+[Fri Nov  6 12:07:34 2026] 127.0.0.1:56145 Closing
+[Fri Nov  6 12:07:34 2026] 127.0.0.1:56146 Accepted
+[Fri Nov  6 12:07:34 2026] 127.0.0.1:56146 [303]: POST /index.php?page=register
+[Fri Nov  6 12:07:34 2026] 127.0.0.1:56146 Closing
+[Fri Nov  6 12:07:34 2026] 127.0.0.1:56148 Accepted
+[Fri Nov  6 12:07:34 2026] 127.0.0.1:56148 [200]: GET /index.php?page=register
+[Fri Nov  6 12:07:34 2026] 127.0.0.1:56148 Closing
+[Fri Nov  6 12:07:34 2026] 127.0.0.1:56149 Accepted
+[Fri Nov  6 12:07:34 2026] 127.0.0.1:56149 [303]: POST /index.php?page=verify-otp
+[Fri Nov  6 12:07:34 2026] 127.0.0.1:56149 Closing
+[Fri Nov  6 12:07:34 2026] 127.0.0.1:56151 Accepted
+[Fri Nov  6 12:07:34 2026] 127.0.0.1:56151 [200]: GET /index.php?page=verify-otp
+[Fri Nov  6 12:07:34 2026] 127.0.0.1:56151 Closing
+[Fri Nov  6 12:07:34 2026] 127.0.0.1:56153 Accepted
+[Fri Nov  6 12:07:34 2026] 127.0.0.1:56153 [200]: GET /index.php?page=register
+[Fri Nov  6 12:07:34 2026] 127.0.0.1:56153 Closing
+[Fri Nov  6 12:07:34 2026] 127.0.0.1:56154 Accepted
+[Fri Nov  6 12:07:35 2026] 127.0.0.1:56154 [303]: POST /index.php?page=register
+[Fri Nov  6 12:07:35 2026] 127.0.0.1:56154 Closing
+[Fri Nov  6 12:07:35 2026] 127.0.0.1:56157 Accepted
+[Fri Nov  6 12:07:35 2026] 127.0.0.1:56157 [200]: GET /index.php?page=verify-otp
+[Fri Nov  6 12:07:35 2026] 127.0.0.1:56157 Closing
+[Fri Nov  6 12:07:35 2026] 127.0.0.1:56159 Accepted
+[Fri Nov  6 12:07:35 2026] 127.0.0.1:56159 [200]: GET /index.php?page=verify-otp
+[Fri Nov  6 12:07:35 2026] 127.0.0.1:56159 Closing
+[Fri Nov  6 12:07:35 2026] 127.0.0.1:56162 Accepted
+[Fri Nov  6 12:07:35 2026] 127.0.0.1:56162 [303]: POST /index.php?page=verify-otp
+[Fri Nov  6 12:07:35 2026] 127.0.0.1:56162 Closing
+[Fri Nov  6 12:07:35 2026] 127.0.0.1:56164 Accepted
+[Fri Nov  6 12:07:35 2026] 127.0.0.1:56164 [200]: GET /index.php?page=verify-otp
+[Fri Nov  6 12:07:35 2026] 127.0.0.1:56164 Closing
+[Fri Nov  6 12:07:35 2026] 127.0.0.1:56166 Accepted
+[Fri Nov  6 12:07:35 2026] 127.0.0.1:56166 [200]: GET /index.php?page=register
+[Fri Nov  6 12:07:35 2026] 127.0.0.1:56166 Closing
+[Fri Nov  6 12:07:35 2026] 127.0.0.1:56167 Accepted
+[Fri Nov  6 12:07:35 2026] 127.0.0.1:56167 [303]: POST /index.php?page=register
+[Fri Nov  6 12:07:35 2026] 127.0.0.1:56167 Closing
+[Fri Nov  6 12:07:35 2026] 127.0.0.1:56170 Accepted
+[Fri Nov  6 12:07:35 2026] 127.0.0.1:56170 [200]: GET /index.php?page=verify-otp
+[Fri Nov  6 12:07:35 2026] 127.0.0.1:56170 Closing
+[Fri Nov  6 12:07:35 2026] 127.0.0.1:56172 Accepted
+[Fri Nov  6 12:07:36 2026] 127.0.0.1:56172 [200]: GET /index.php?page=verify-otp
+[Fri Nov  6 12:07:36 2026] 127.0.0.1:56172 Closing
+[Fri Nov  6 12:07:36 2026] 127.0.0.1:56174 Accepted
+[Fri Nov  6 12:07:36 2026] 127.0.0.1:56174 [303]: POST /index.php?page=verify-otp
+[Fri Nov  6 12:07:36 2026] 127.0.0.1:56174 Closing
+[Fri Nov  6 12:07:36 2026] 127.0.0.1:56176 Accepted
+[Fri Nov  6 12:07:36 2026] 127.0.0.1:56176 [200]: GET /index.php?page=verify-otp
+[Fri Nov  6 12:07:36 2026] 127.0.0.1:56176 Closing
+[Fri Nov  6 12:07:36 2026] 127.0.0.1:56178 Accepted
+[Fri Nov  6 12:07:36 2026] 127.0.0.1:56178 [303]: POST /index.php?page=verify-otp
+[Fri Nov  6 12:07:36 2026] 127.0.0.1:56178 Closing
+[Fri Nov  6 12:07:36 2026] 127.0.0.1:56180 Accepted
+[Fri Nov  6 12:07:36 2026] 127.0.0.1:56180 [200]: GET /index.php?page=verify-otp
+[Fri Nov  6 12:07:36 2026] 127.0.0.1:56180 Closing
+[Fri Nov  6 12:07:36 2026] 127.0.0.1:56182 Accepted
+[Fri Nov  6 12:07:36 2026] 127.0.0.1:56182 [303]: POST /index.php?page=verify-otp
+[Fri Nov  6 12:07:36 2026] 127.0.0.1:56182 Closing
+[Fri Nov  6 12:07:36 2026] 127.0.0.1:56185 Accepted
+[Fri Nov  6 12:07:36 2026] 127.0.0.1:56185 [200]: GET /index.php?page=verify-otp
+[Fri Nov  6 12:07:36 2026] 127.0.0.1:56185 Closing
+[Fri Nov  6 12:07:36 2026] 127.0.0.1:56187 Accepted
+[Fri Nov  6 12:07:36 2026] 127.0.0.1:56187 [303]: POST /index.php?page=verify-otp
+[Fri Nov  6 12:07:36 2026] 127.0.0.1:56187 Closing
+[Fri Nov  6 12:07:36 2026] 127.0.0.1:56189 Accepted
+[Fri Nov  6 12:07:36 2026] 127.0.0.1:56189 [200]: GET /index.php?page=verify-otp
+[Fri Nov  6 12:07:36 2026] 127.0.0.1:56189 Closing
+[Fri Nov  6 12:07:36 2026] 127.0.0.1:56191 Accepted
+[Fri Nov  6 12:07:36 2026] 127.0.0.1:56191 [303]: POST /index.php?page=verify-otp
+[Fri Nov  6 12:07:36 2026] 127.0.0.1:56191 Closing
+[Fri Nov  6 12:07:36 2026] 127.0.0.1:56193 Accepted
+[Fri Nov  6 12:07:36 2026] 127.0.0.1:56193 [200]: GET /index.php?page=verify-otp
+[Fri Nov  6 12:07:36 2026] 127.0.0.1:56193 Closing
+[Fri Nov  6 12:07:36 2026] 127.0.0.1:56195 Accepted
+[Fri Nov  6 12:07:36 2026] 127.0.0.1:56195 [200]: GET /index.php?page=register
+[Fri Nov  6 12:07:36 2026] 127.0.0.1:56195 Closing
+[Fri Nov  6 12:07:36 2026] 127.0.0.1:56196 Accepted
+[Fri Nov  6 12:07:36 2026] 127.0.0.1:56196 [303]: POST /index.php?page=register
+[Fri Nov  6 12:07:36 2026] 127.0.0.1:56196 Closing
+[Fri Nov  6 12:07:36 2026] 127.0.0.1:56199 Accepted
+[Fri Nov  6 12:07:36 2026] 127.0.0.1:56199 [200]: GET /index.php?page=verify-otp
+[Fri Nov  6 12:07:36 2026] 127.0.0.1:56199 Closing
+[Fri Nov  6 12:07:36 2026] 127.0.0.1:56201 Accepted
+[Fri Nov  6 12:07:36 2026] 127.0.0.1:56201 [200]: GET /index.php?page=verify-otp
+[Fri Nov  6 12:07:36 2026] 127.0.0.1:56201 Closing
+[Fri Nov  6 12:07:36 2026] 127.0.0.1:56203 Accepted
+[Fri Nov  6 12:07:36 2026] 127.0.0.1:56203 [303]: POST /index.php?page=verify-otp
+[Fri Nov  6 12:07:36 2026] 127.0.0.1:56203 Closing
+[Fri Nov  6 12:07:36 2026] 127.0.0.1:56205 Accepted
+[Fri Nov  6 12:07:36 2026] 127.0.0.1:56205 [200]: GET /index.php?page=verify-otp
+[Fri Nov  6 12:07:36 2026] 127.0.0.1:56205 Closing
+[Fri Nov  6 12:07:37 2026] 127.0.0.1:56207 Accepted
+[Fri Nov  6 12:07:37 2026] 127.0.0.1:56207 [200]: GET /index.php?page=login
+[Fri Nov  6 12:07:37 2026] 127.0.0.1:56207 Closing
+[Fri Nov  6 12:07:37 2026] 127.0.0.1:56208 Accepted
+[Fri Nov  6 12:07:37 2026] 127.0.0.1:56208 [200]: GET /index.php?page=login
+[Fri Nov  6 12:07:37 2026] 127.0.0.1:56208 Closing
+[Fri Nov  6 12:07:37 2026] 127.0.0.1:56209 Accepted
+[Fri Nov  6 12:07:37 2026] 127.0.0.1:56209 [303]: POST /index.php?page=login
+[Fri Nov  6 12:07:37 2026] 127.0.0.1:56209 Closing
+[Fri Nov  6 12:07:37 2026] 127.0.0.1:56212 Accepted
+[Fri Nov  6 12:07:37 2026] 127.0.0.1:56212 [200]: GET /index.php?page=verify-otp
+[Fri Nov  6 12:07:37 2026] 127.0.0.1:56212 Closing
+[Fri Nov  6 12:07:37 2026] 127.0.0.1:56214 Accepted
+[Fri Nov  6 12:07:37 2026] 127.0.0.1:56214 [200]: GET /index.php?page=login
+[Fri Nov  6 12:07:37 2026] 127.0.0.1:56214 Closing
+[Fri Nov  6 12:07:37 2026] 127.0.0.1:56215 Accepted
+[Fri Nov  6 12:07:37 2026] 127.0.0.1:56215 [303]: POST /index.php?page=login
+[Fri Nov  6 12:07:37 2026] 127.0.0.1:56215 Closing
+[Fri Nov  6 12:07:37 2026] 127.0.0.1:56217 Accepted
+[Fri Nov  6 12:07:37 2026] 127.0.0.1:56217 [200]: GET /index.php?page=dashboard
+[Fri Nov  6 12:07:37 2026] 127.0.0.1:56217 Closing
+[Fri Nov  6 12:07:37 2026] 127.0.0.1:56219 Accepted
+[Fri Nov  6 12:07:37 2026] 127.0.0.1:56219 [200]: GET /index.php?page=login
+[Fri Nov  6 12:07:37 2026] 127.0.0.1:56219 Closing
+[Fri Nov  6 12:07:37 2026] 127.0.0.1:56220 Accepted
+[Fri Nov  6 12:07:37 2026] 127.0.0.1:56220 [303]: POST /index.php?page=login
+[Fri Nov  6 12:07:37 2026] 127.0.0.1:56220 Closing
+[Fri Nov  6 12:07:37 2026] 127.0.0.1:56222 Accepted
+[Fri Nov  6 12:07:37 2026] 127.0.0.1:56222 [200]: GET /index.php?page=login
+[Fri Nov  6 12:07:37 2026] 127.0.0.1:56222 Closing
+[Fri Nov  6 12:07:38 2026] 127.0.0.1:56223 Accepted
+[Fri Nov  6 12:07:38 2026] 127.0.0.1:56223 [200]: GET /index.php?page=login
+[Fri Nov  6 12:07:38 2026] 127.0.0.1:56223 Closing
+[Fri Nov  6 12:07:38 2026] 127.0.0.1:56224 Accepted
+[Fri Nov  6 12:07:38 2026] 127.0.0.1:56224 [303]: POST /index.php?page=login
+[Fri Nov  6 12:07:38 2026] 127.0.0.1:56224 Closing
+[Fri Nov  6 12:07:38 2026] 127.0.0.1:56226 Accepted
+[Fri Nov  6 12:07:38 2026] 127.0.0.1:56226 [200]: GET /index.php?page=login
+[Fri Nov  6 12:07:38 2026] 127.0.0.1:56226 Closing
+[Fri Nov  6 12:07:38 2026] 127.0.0.1:56227 Accepted
+[Fri Nov  6 12:07:38 2026] 127.0.0.1:56227 [200]: GET /index.php?page=forgot-password
+[Fri Nov  6 12:07:38 2026] 127.0.0.1:56227 Closing
+[Fri Nov  6 12:07:38 2026] 127.0.0.1:56228 Accepted
+[Fri Nov  6 12:07:38 2026] 127.0.0.1:56228 [303]: POST /index.php?page=forgot-password
+[Fri Nov  6 12:07:38 2026] 127.0.0.1:56228 Closing
+[Fri Nov  6 12:07:38 2026] 127.0.0.1:56230 Accepted
+[Fri Nov  6 12:07:38 2026] 127.0.0.1:56230 [200]: GET /index.php?page=verify-otp
+[Fri Nov  6 12:07:38 2026] 127.0.0.1:56230 Closing
+[Fri Nov  6 12:07:38 2026] 127.0.0.1:56233 Accepted
+[Fri Nov  6 12:07:38 2026] 127.0.0.1:56233 [200]: GET /index.php?page=forgot-password
+[Fri Nov  6 12:07:38 2026] 127.0.0.1:56233 Closing
+[Fri Nov  6 12:07:38 2026] 127.0.0.1:56234 Accepted
+[Fri Nov  6 12:07:38 2026] 127.0.0.1:56234 [303]: POST /index.php?page=forgot-password
+[Fri Nov  6 12:07:38 2026] 127.0.0.1:56234 Closing
+[Fri Nov  6 12:07:38 2026] 127.0.0.1:56237 Accepted
+[Fri Nov  6 12:07:38 2026] 127.0.0.1:56237 [200]: GET /index.php?page=verify-otp
+[Fri Nov  6 12:07:38 2026] 127.0.0.1:56237 Closing
+[Fri Nov  6 12:07:38 2026] 127.0.0.1:56239 Accepted
+[Fri Nov  6 12:07:38 2026] 127.0.0.1:56239 [200]: GET /index.php?page=verify-otp
+[Fri Nov  6 12:07:38 2026] 127.0.0.1:56239 Closing
+[Fri Nov  6 12:07:38 2026] 127.0.0.1:56241 Accepted
+[Fri Nov  6 12:07:38 2026] 127.0.0.1:56241 [303]: POST /index.php?page=verify-otp
+[Fri Nov  6 12:07:38 2026] 127.0.0.1:56241 Closing
+[Fri Nov  6 12:07:38 2026] 127.0.0.1:56243 Accepted
+[Fri Nov  6 12:07:38 2026] 127.0.0.1:56243 [200]: GET /index.php?page=new-password
+[Fri Nov  6 12:07:38 2026] 127.0.0.1:56243 Closing
+[Fri Nov  6 12:07:38 2026] 127.0.0.1:56245 Accepted
+[Fri Nov  6 12:07:39 2026] 127.0.0.1:56245 [200]: GET /index.php?page=new-password
+[Fri Nov  6 12:07:39 2026] 127.0.0.1:56245 Closing
+[Fri Nov  6 12:07:39 2026] 127.0.0.1:56247 Accepted
+[Fri Nov  6 12:07:39 2026] 127.0.0.1:56247 [303]: POST /index.php?page=new-password
+[Fri Nov  6 12:07:39 2026] 127.0.0.1:56247 Closing
+[Fri Nov  6 12:07:39 2026] 127.0.0.1:56249 Accepted
+[Fri Nov  6 12:07:39 2026] 127.0.0.1:56249 [200]: GET /index.php?page=login
+[Fri Nov  6 12:07:39 2026] 127.0.0.1:56249 Closing
+[Fri Nov  6 12:07:39 2026] 127.0.0.1:56252 Accepted
+[Fri Nov  6 12:07:39 2026] 127.0.0.1:56252 [303]: GET /index.php?page=review_application
+[Fri Nov  6 12:07:39 2026] 127.0.0.1:56252 Closing
+[Fri Nov  6 12:07:39 2026] 127.0.0.1:56253 Accepted
+[Fri Nov  6 12:07:39 2026] 127.0.0.1:56253 [200]: GET /index.php?page=login
+[Fri Nov  6 12:07:39 2026] 127.0.0.1:56253 Closing

@@ -1,0 +1,14 @@
+[Fri Nov  6 12:03:37 2026] PHP 8.2.12 Development Server (http://0.0.0.0:27295) started
+[Fri Nov  6 12:03:37 2026] 127.0.0.1:55676 Accepted
+[Fri Nov  6 12:03:37 2026] 127.0.0.1:55676 [200]: GET /index.php?page=login
+[Fri Nov  6 12:03:37 2026] 127.0.0.1:55676 Closing
+[Fri Nov  6 12:03:37 2026] 127.0.0.1:55677 Accepted
+[Fri Nov  6 12:03:37 2026] 127.0.0.1:55677 [200]: GET /index.php?page=register
+[Fri Nov  6 12:03:37 2026] 127.0.0.1:55677 Closing
+[Fri Nov  6 12:03:38 2026] 127.0.0.1:55678 Accepted
+[Fri Nov  6 12:03:38 2026] Application request failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'online_voting_test_8dd7863745e04571a58de9dbea6f3942.auth_rate_limits' doesn't exist
+[Fri Nov  6 12:03:38 2026] 127.0.0.1:55678 [303]: POST /index.php?page=register
+[Fri Nov  6 12:03:38 2026] 127.0.0.1:55678 Closing
+[Fri Nov  6 12:03:38 2026] 127.0.0.1:55680 Accepted
+[Fri Nov  6 12:03:38 2026] 127.0.0.1:55680 [200]: GET /index.php?page=register
+[Fri Nov  6 12:03:38 2026] 127.0.0.1:55680 Closing
